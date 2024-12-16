@@ -6,11 +6,15 @@ ncat --ssl mumbo-dumbo.chals.nitectf2024.live 1337
 ![InitiateConnection.png](./images/InitiateConnection.png)
 
 ## Solve the P-O-W Challenge as Prompted
+We're prompted to use the pow.py script we're given to solve the Proof-of-Work challenge.
+After we solve this, take that output and provide it as the solution.
+Our solution will be verified, and our chat with the bot will start.
 
 ```
 python3 pow.py solve s.ACcQ.AABqsIvWSrjfFqo1wV9UZHKW
 ```
 ![SolvePOW.png](./images/SolvePOW.png)
+![SolutionToStartChat.png](./images/SolutionToStartChat.png)
 
 ## Use Command Execution to Poke at the Bot
 
